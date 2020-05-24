@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D80D6CD8-FBA0-7041-F7AF-1029B2522E91" name="CLIENTE_REGISTRA">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:33:16 UTC</createdTime>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REGISTRA_REGISTRA_ID" id="ABA9FF19-5A76-A912-A8FC-7A85D99EA08C">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:33:16 UTC</createdTime>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F58FE445-A74D-5193-8790-1495C19E25A9" referredColumn="38A9D36A-501F-1CA2-0431-A20D2AD25EE7"/>
+</associations>
+</Column>
+<Column name="CLIENTE_TELEFONO" id="7FCE172B-0F62-F974-AAC1-216C88343614">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:33:16 UTC</createdTime>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27DB9357-7288-730A-BF5E-9129F01772CD" referredColumn="CF03F4D8-79D9-4EFF-1B63-3AE9B86D4268"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06A3A8D9-D15F-1124-014E-75DA711FECB7" name="CLIENTE_REGISTRA_PK">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:33:16 UTC</createdTime>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABA9FF19-5A76-A912-A8FC-7A85D99EA08C"/>
+<colUsage columnID="7FCE172B-0F62-F974-AAC1-216C88343614"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E004156E-08F9-2030-D2C8-523FDFEB5E76" name="CLIENTE_REGISTRA_REGISTRA_FK">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:33:16 UTC</createdTime>
+<generatorID>F425A311-D3C5-C983-5D20-A304DDC68942</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABA9FF19-5A76-A912-A8FC-7A85D99EA08C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91ACC04C-8FC1-A980-14E3-49124DAE0437" name="CLIENTE_REGISTRA_CLIENTE_FK">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:33:16 UTC</createdTime>
+<generatorID>F425A311-D3C5-C983-5D20-A304DDC68942</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FCE172B-0F62-F974-AAC1-216C88343614"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

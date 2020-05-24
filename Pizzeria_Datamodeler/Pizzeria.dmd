@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Pizzeria" id="F8645246-F03E-B348-C7E1-8069956158BF" version="3.5">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:23:59 UTC</createdTime>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F8645246-F03E-B348-C7E1-8069956158BF</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C080B23E-FF7F-F141-2782-F78F3BD8D8F6">
+<designStoragePath>D:\MIS DOCUMENTOS\Documents\2020-1\Modelado\Final\Mer-Pizzería</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

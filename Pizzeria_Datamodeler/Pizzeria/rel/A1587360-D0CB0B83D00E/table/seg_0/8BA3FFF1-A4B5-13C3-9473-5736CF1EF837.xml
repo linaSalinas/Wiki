@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8BA3FFF1-A4B5-13C3-9473-5736CF1EF837" name="TARJETA">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:33:16 UTC</createdTime>
+<generatorID>7C9F4D17-C4F0-D0B2-92A0-8544547D6FEF</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<abbreviation>TAR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TELEFONO" id="6E9D66B0-67CA-8B10-E67F-7DF206B038EB">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:33:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Telefono del cliente dueño de la  tarjeta de membresia, es el identificador de la tarjeta en el sistema]]></commentInRDBMS>
+<generatorID>974BBB1C-EC61-F5F1-16E4-DD3707299EA2</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUNTOS" id="29792A7F-1677-2D09-0EBF-D10C44FD1F1D">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:33:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numero de puntos cumulados por el cliente]]></commentInRDBMS>
+<generatorID>A91F0FA2-D91F-5D28-8B5D-E4A12BF785A0</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31476708-2984-BF21-8EE4-71D1156DB5FA" name="TARJETA_PK">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:33:16 UTC</createdTime>
+<generatorID>5FD5148D-CFD6-071E-B8C9-11969FBAF269</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E9D66B0-67CA-8B10-E67F-7DF206B038EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E3ABB5E-BCAF-837E-71A1-D1E870BC45D3" name="TARJETA__IDX">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:33:16 UTC</createdTime>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>20345D86-5EA7-4D9F-12FC-0826587D2546</relationGeneratorID>
+</ind_PK_UK>
+</indexes>
+</Table>

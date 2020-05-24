@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D9631CE-E839-1193-B38D-A1DB1F2889D7" name="CLIENTE">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:33:16 UTC</createdTime>
+<generatorID>D3A0EB10-41E0-F5ED-DF34-D66159D393F6</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<abbreviation>CLIENT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TELEFONO" id="CF03F4D8-79D9-4EFF-1B63-3AE9B86D4268">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:33:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Telefono del cliente, es el identificador del cliente en el sistema]]></commentInRDBMS>
+<generatorID>78371D42-1617-039F-05C9-2D856D359A95</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="244D99B5-E2C2-B348-88ED-70845FC24B8B">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:33:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Dirección del cliente]]></commentInRDBMS>
+<generatorID>A2711F1B-1DD2-1740-DACB-49C122F0657E</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="09200D2F-E478-66BC-14C0-66E83BACBBF7" name="CLIENTE_PK">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:33:16 UTC</createdTime>
+<generatorID>F8BE7A30-E145-22B3-0AB3-A7B832B4F542</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF03F4D8-79D9-4EFF-1B63-3AE9B86D4268"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

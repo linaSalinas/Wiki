@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF16C57C-C0C0-BB2B-BCC2-41E901A666F3" name="EMPLEADO">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:24:20 UTC</createdTime>
+<generatorID>89EBFB0C-DF9A-B0F7-FFCF-E613BFEE0AB4</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<importedID>BAC62121-6FC9-3842-6E53-CA0F3066FDB0</importedID>
+<abbreviation>EMPLE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EMPLEADO" id="86263C78-C339-56CA-1A55-271953C21A6B">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:24:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo de identificación del empleado en el sistema]]></commentInRDBMS>
+<generatorID>BE7F0A85-C5D2-2D63-7DB7-F5347EEDEA4A</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<importedID>66339F99-EF35-7EA5-2AFA-7EE66A1BDEEF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="C76FF6B1-F12D-7BD7-D41A-837879F78693">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:24:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificación del Empleado]]></commentInRDBMS>
+<generatorID>E950F240-35A1-EB28-3A57-CEDB5C129210</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<importedID>29305109-71AF-4061-7075-06879F2F600E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="E3AB11A2-0F88-BD4B-AB82-8BFB68C4D12D">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:24:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Email del empleado]]></commentInRDBMS>
+<generatorID>CE878366-093E-E958-D732-5162876CBEA1</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<importedID>66767FA2-6403-7C06-4AD3-64B0EED14B63</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="71EE0137-2390-7F2F-46FA-1FF571457721">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:24:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Telefono del empleado]]></commentInRDBMS>
+<generatorID>53F79A9D-F18A-3883-BF49-E822E4407658</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<importedID>99545473-B452-7B42-7B23-65BDA9CD4D5E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUMPLEAÑOS" id="4CD0ABA6-68BB-4CD8-3F56-F5C8F8F773E8">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:24:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de cumpleaños del empleado]]></commentInRDBMS>
+<generatorID>C0F8783C-6DA4-B878-2CF3-1BF96055EB3B</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<importedID>7F67ED92-82E4-8473-EDE1-178494394A25</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROL" id="DBF02EA9-C8D0-70D1-B791-93A85BC111A1">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 22:12:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Es el rol que ocupa el empleado dentro de la pizzería]]></commentInRDBMS>
+<generatorID>03452956-AB82-9394-F49B-CBC481F7E686</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>39F4DD00-1B3C-B6D1-0A8D-81D200F8897F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLEADO_ID_EMPLEADO" id="9C3824A8-0779-0B64-BEAA-69CE5B75389D">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 22:12:21 UTC</createdTime>
+<generatorID>E3E378CE-CAE9-F655-496A-08523BA824DE</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA198288-F083-1CB8-7444-C4E097DE36C0" referredColumn="86263C78-C339-56CA-1A55-271953C21A6B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE464CFE-0671-1EEE-3924-8B20A0BFD20B" name="EMPLEADO_PK">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:24:20 UTC</createdTime>
+<generatorID>B6ABEDB9-0FA8-9A3F-2C82-1BA267A25A8F</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<importedID>3CDB6A0C-C29B-62B7-7D34-77C05B59E89D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86263C78-C339-56CA-1A55-271953C21A6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79EA6C74-2A14-C73E-45A2-B4AC23DBA7C2" name="EMPLEADO_EMPLEADO_FK">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 22:12:21 UTC</createdTime>
+<generatorID>90BF1F29-21B7-25C0-8BE3-8EA86F6AB247</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C3824A8-0779-0B64-BEAA-69CE5B75389D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

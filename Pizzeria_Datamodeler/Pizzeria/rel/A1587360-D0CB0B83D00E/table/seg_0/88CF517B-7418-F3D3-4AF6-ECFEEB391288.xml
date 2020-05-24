@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88CF517B-7418-F3D3-4AF6-ECFEEB391288" name="PIZZA">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:33:16 UTC</createdTime>
+<generatorID>AB0EA955-4A93-D457-A91E-C15E1FEE58FE</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<abbreviation>PIZZ</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TAMAÑO" id="5C864D67-CDC0-6C14-16DE-643C68F5453A">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:33:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tamaño de la pizza]]></commentInRDBMS>
+<generatorID>2C0C81A4-B71B-CA69-7A4A-D86E74A8C426</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SABOR" id="46039022-0D28-10B1-9667-4A21A7CE2A0B">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:33:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Sabor de la pizza]]></commentInRDBMS>
+<generatorID>3E898507-807E-09C3-C342-A2EC73AB87F0</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PIZZA" id="DDAEC553-7080-FE60-34F3-E6C88381F967">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:33:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la pizza en el sistema]]></commentInRDBMS>
+<generatorID>131B9A4D-199D-43CA-0F35-D4D849AAF8DF</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9DA5505D-B4CC-AE48-D8CF-211B71C89537" name="PIZZA_PK">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:33:16 UTC</createdTime>
+<generatorID>3B026617-7243-753C-397A-1CE49796586A</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDAEC553-7080-FE60-34F3-E6C88381F967"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

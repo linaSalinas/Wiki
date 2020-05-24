@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PEDIDO_JUGO" directorySegmentName="seg_0" id="BE49C11F-3D78-2524-71F3-DBAC37A4B971">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 18:19:07 UTC</createdTime>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<engineerTo>
+<item key="A1587360-F95D-AF8D-A3A2-D0CB0B83D00E" value="true"/>
+<item key="3D8B3B47-7A76-C51A-DABE-935033474A41" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C4D73B89-DCC0-6A6B-BAFB-645C0000CBD5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0F66EC36-947B-EC5C-0801-DE8840C72412</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1BF5C42E-92DD-0616-44EB-EC7E434364A7" name="REGISTRA">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 22:12:21 UTC</createdTime>
+<generatorID>24E1E700-B3B0-90E4-D36E-B7431F7945C2</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REGISTRA_ID" id="B90A0C51-21C1-554C-D1D5-3132453CB5D7">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 22:20:29 UTC</createdTime>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="HORA" id="BAF7F904-7DB6-6A8E-D7AA-FF19CF0A014E">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 22:12:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Representa la hora en la que se toma el pedido]]></commentInRDBMS>
+<generatorID>CF0DBF61-9352-E5CE-8C18-DA81074063E8</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLEADO_ID_EMPLEADO" id="77B20351-5B1E-ED6B-7372-AF9DC220B5D2">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 22:12:21 UTC</createdTime>
+<generatorID>934FD18E-81D3-0E2A-D482-DAD84474DB19</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C653A846-A588-3EE5-861F-05918CBBDE81" referredColumn="86263C78-C339-56CA-1A55-271953C21A6B"/>
+</associations>
+</Column>
+<Column name="CLIENTE_TELEFONO" id="CF8FC0E3-D6A0-2EC9-DA79-C8F206B3FCCE">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 22:12:21 UTC</createdTime>
+<generatorID>D1CAA389-2AE1-96A9-934D-C7D9DF4E7B95</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8E14A23-4554-23E7-A261-5B6B62496059" referredColumn="697186AF-587F-D50C-57DB-633E4A1EA937"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0417BF58-F670-CE04-EE17-FA621DB715CA" name="REGISTRA_PK">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 22:20:29 UTC</createdTime>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="B90A0C51-21C1-554C-D1D5-3132453CB5D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C04E2AB1-45BB-EA4A-6BED-53CA01DB7082" name="REGISTRA_CLIENTE_FK">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 22:12:21 UTC</createdTime>
+<generatorID>C93F3E73-5E74-9D9C-21E2-725FCE8B1A50</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF8FC0E3-D6A0-2EC9-DA79-C8F206B3FCCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A80DC0B4-9838-F983-0056-7C2B3F0D7098" name="REGISTRA_EMPLEADO_FK">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 22:12:21 UTC</createdTime>
+<generatorID>AD6CB248-629C-22EE-AC1C-80E67190201E</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77B20351-5B1E-ED6B-7372-AF9DC220B5D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

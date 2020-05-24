@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24E1E700-B3B0-90E4-D36E-B7431F7945C2" name="REGISTRA">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:28:52 UTC</createdTime>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<engineerTo>
+<item key="A1587360-F95D-AF8D-A3A2-D0CB0B83D00E" value="true"/>
+<item key="3D8B3B47-7A76-C51A-DABE-935033474A41" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="HORA" id="CF0DBF61-9352-E5CE-8C18-DA81074063E8">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 18:15:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Representa la hora en la que se toma el pedido]]></commentInRDBMS>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<engineerTo>
+<item key="A1587360-F95D-AF8D-A3A2-D0CB0B83D00E" value="true"/>
+<item key="3D8B3B47-7A76-C51A-DABE-935033474A41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_EMPLEADO" id="934FD18E-81D3-0E2A-D482-DAD84474DB19">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 18:20:06 UTC</createdTime>
+<generatorID>AD6CB248-629C-22EE-AC1C-80E67190201E</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<engineerTo>
+<item key="A1587360-F95D-AF8D-A3A2-D0CB0B83D00E" value="true"/>
+<item key="3D8B3B47-7A76-C51A-DABE-935033474A41" value="true"/>
+</engineerTo>
+<referedAttribute>BE7F0A85-C5D2-2D63-7DB7-F5347EEDEA4A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONO" id="D1CAA389-2AE1-96A9-934D-C7D9DF4E7B95">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 18:20:57 UTC</createdTime>
+<generatorID>C93F3E73-5E74-9D9C-21E2-725FCE8B1A50</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<engineerTo>
+<item key="A1587360-F95D-AF8D-A3A2-D0CB0B83D00E" value="true"/>
+<item key="3D8B3B47-7A76-C51A-DABE-935033474A41" value="true"/>
+</engineerTo>
+<referedAttribute>78371D42-1617-039F-05C9-2D856D359A95</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

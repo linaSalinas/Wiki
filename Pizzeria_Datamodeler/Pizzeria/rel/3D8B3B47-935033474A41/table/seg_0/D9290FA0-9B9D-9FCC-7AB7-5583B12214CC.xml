@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9290FA0-9B9D-9FCC-7AB7-5583B12214CC" name="JUGO">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:24:20 UTC</createdTime>
+<generatorID>0F66EC36-947B-EC5C-0801-DE8840C72412</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<importedID>13932C8E-0493-089E-CE7B-8A5C845D97C9</importedID>
+<abbreviation>JUICE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SABOR" id="E8A144C9-DA76-D759-E05B-2B326F07C6DA">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:24:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[SABOR DE LA PIZZA]]></commentInRDBMS>
+<generatorID>60D08D09-21A5-E78C-8379-626B271C11D7</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<importedID>E766B084-CAF2-F74C-77DA-96986731E1FC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMBASE" id="E14EEA41-F8D3-709E-5F73-73D89A7BBF0B">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:24:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[ENVACE EN EL QUE SE SIRVE EL JUGO]]></commentInRDBMS>
+<generatorID>0124D8F1-DB4C-76B6-BD9E-EF76717A5CEF</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<importedID>2692A712-1880-04CC-1CBA-26F633CD84FE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDULCE" id="463F903A-5ED4-2E04-B3A9-C4B9180112A8">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:24:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[EL ELEMENTO CON EL QUE SE VA ENDULZAR EL JUGO]]></commentInRDBMS>
+<generatorID>7462BA07-B927-7771-6D9A-67F8EDA750E9</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<importedID>F3324184-3343-6A35-7B20-543FBA6D02F7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_JUGO" id="FBAAE046-90F6-6EC8-363E-3BD6E344F3D3">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:24:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del jugo en el sistema]]></commentInRDBMS>
+<generatorID>CF4180AC-5105-B1B3-F155-4DBC89F5F4F8</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<importedID>EBC059FD-AEDD-5BEE-57CA-1C76D24C99BF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C69F21E2-7C34-6073-D9A9-6746C51B45D4" name="JUGO_PK">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:24:20 UTC</createdTime>
+<generatorID>CB64753D-1075-8D28-15F1-82152C4B5332</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<importedID>8B0E2BC5-A398-79BA-2753-65235E75A186</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBAAE046-90F6-6EC8-363E-3BD6E344F3D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

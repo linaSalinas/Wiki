@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="390241E0-4C0B-C3AE-B0FC-C70828FF74FF" name="SOBRINO">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:24:20 UTC</createdTime>
+<generatorID>989AC1BB-D78A-FBAE-D5CC-2D1A343A3C7B</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<importedID>E6EEA83C-DC3C-4DD6-E509-BA36495F40DA</importedID>
+<abbreviation>SOBRI</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUMPLEAÑOS" id="1F959233-418E-82AE-DA8F-87DC7A5A19FD">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:24:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de cumpleaños de la persona]]></commentInRDBMS>
+<generatorID>6C1D865A-F78F-8E47-AFC1-A8CA2CB90555</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<importedID>6FD2EFB9-462E-B9B0-F923-B1C7EAE327CA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONAJE" id="87A63827-DEBB-DE5A-0331-2ED6A59120D7">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:24:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Personaje favorito del cliente]]></commentInRDBMS>
+<generatorID>C5D993E9-3CC7-B5F3-8E03-4DD3D49EB468</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<importedID>7B0ED36B-B546-01C6-96C7-465604C10BA8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="3D1A6F2A-F412-0BFE-8FAC-1B36E096AA3E">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:24:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del cliente]]></commentInRDBMS>
+<generatorID>A7848DF5-C67D-9E92-089C-865A165A9A41</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<importedID>B4E234BE-CDB8-7C76-C519-BBF9F0A1795C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TARJETA_TELEFONO" id="0E6E0206-C462-2A3D-7F65-5C54EB469781">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 22:12:21 UTC</createdTime>
+<generatorID>390AA108-3992-53B2-7F39-E71502A98DC2</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="655D5574-BDD2-A732-5650-9CC78F57023A" referredColumn="4A68C578-DC01-B08D-3DD3-45DE0713DA51"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1DF37CD0-4FB7-BA72-C269-F59C8E738F99" name="SOBRINO_TARJETA_FK">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 22:12:21 UTC</createdTime>
+<generatorID>DC48D77F-9F07-3BEA-9AD5-5108B21FCD13</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E6E0206-C462-2A3D-7F65-5C54EB469781"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

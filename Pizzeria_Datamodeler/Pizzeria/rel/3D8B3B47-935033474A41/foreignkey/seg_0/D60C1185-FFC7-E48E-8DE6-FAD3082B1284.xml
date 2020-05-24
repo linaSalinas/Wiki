@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D60C1185-FFC7-E48E-8DE6-FAD3082B1284" containerWithKeyObject="7D5CD917-F905-2AA1-34C3-A675A3541734" localFKIndex="1E670E41-93C5-DBEB-1B0A-0A92EBD24518" name="PEDIDO_PIZZA_PEDIDO_FK">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 22:12:21 UTC</createdTime>
+<generatorID>D60A7CF8-ADFF-6C3F-906E-9106C48F64F0</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<referredTableLongName>PEDIDO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BC781769-DADF-E321-E2E4-560DFB85B9E9</referredTableID>
+<keyObject>218F482C-B380-43B0-C011-9F4B91A35AE4</keyObject>
+<referredKeyID>218F482C-B380-43B0-C011-9F4B91A35AE4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PEDIDO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

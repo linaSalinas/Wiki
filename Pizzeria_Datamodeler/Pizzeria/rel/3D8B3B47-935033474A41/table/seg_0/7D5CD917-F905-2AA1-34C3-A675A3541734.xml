@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D5CD917-F905-2AA1-34C3-A675A3541734" name="PEDIDO_PIZZA">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 22:12:21 UTC</createdTime>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PEDIDO_ID_PEDIDO" id="8FC5625F-7C5D-CBB7-081B-97C27A7F2827">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 22:12:21 UTC</createdTime>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D60C1185-FFC7-E48E-8DE6-FAD3082B1284" referredColumn="3951BA83-EE99-3964-254F-D6FAD1D3DC22"/>
+</associations>
+</Column>
+<Column name="PIZZA_ID_PIZZA" id="4BFB91D0-E7A6-8061-90DE-1B0C3458ED5A">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 22:12:21 UTC</createdTime>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46B1FB56-B377-CAAC-9E9A-17E5C667754C" referredColumn="51EE090A-D4D0-F744-60D8-E04AECA86234"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A18F418-B2FB-29ED-86B3-A873337F415D" name="PEDIDO_PIZZA_PK">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 22:12:21 UTC</createdTime>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FC5625F-7C5D-CBB7-081B-97C27A7F2827"/>
+<colUsage columnID="4BFB91D0-E7A6-8061-90DE-1B0C3458ED5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E670E41-93C5-DBEB-1B0A-0A92EBD24518" name="PEDIDO_PIZZA_PEDIDO_FK">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 22:12:21 UTC</createdTime>
+<generatorID>D60A7CF8-ADFF-6C3F-906E-9106C48F64F0</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FC5625F-7C5D-CBB7-081B-97C27A7F2827"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82EBFB3E-9BA1-E433-AA6B-C0EB844B2B3F" name="PEDIDO_PIZZA_PIZZA_FK">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 22:12:21 UTC</createdTime>
+<generatorID>D60A7CF8-ADFF-6C3F-906E-9106C48F64F0</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BFB91D0-E7A6-8061-90DE-1B0C3458ED5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

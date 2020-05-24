@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PEDIDO_TARJETA" directorySegmentName="seg_0" id="CB804FC7-CA63-CA3C-AAFD-C8BF02F6ADA8">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 18:18:38 UTC</createdTime>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<engineerTo>
+<item key="A1587360-F95D-AF8D-A3A2-D0CB0B83D00E" value="true"/>
+<item key="3D8B3B47-7A76-C51A-DABE-935033474A41" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C4D73B89-DCC0-6A6B-BAFB-645C0000CBD5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7C9F4D17-C4F0-D0B2-92A0-8544547D6FEF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

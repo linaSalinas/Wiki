@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CLIENTE_REGISTRA" directorySegmentName="seg_0" id="C93F3E73-5E74-9D9C-21E2-725FCE8B1A50">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 18:20:57 UTC</createdTime>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<engineerTo>
+<item key="A1587360-F95D-AF8D-A3A2-D0CB0B83D00E" value="true"/>
+<item key="3D8B3B47-7A76-C51A-DABE-935033474A41" value="true"/>
+</engineerTo>
+<sourcePk>F8BE7A30-E145-22B3-0AB3-A7B832B4F542</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D3A0EB10-41E0-F5ED-DF34-D66159D393F6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>24E1E700-B3B0-90E4-D36E-B7431F7945C2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

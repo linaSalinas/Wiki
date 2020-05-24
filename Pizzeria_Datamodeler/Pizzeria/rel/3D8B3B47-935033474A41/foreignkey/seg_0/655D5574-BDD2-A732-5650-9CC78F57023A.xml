@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="655D5574-BDD2-A732-5650-9CC78F57023A" containerWithKeyObject="390241E0-4C0B-C3AE-B0FC-C70828FF74FF" localFKIndex="1DF37CD0-4FB7-BA72-C269-F59C8E738F99" name="SOBRINO_TARJETA_FK">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 22:12:21 UTC</createdTime>
+<generatorID>DC48D77F-9F07-3BEA-9AD5-5108B21FCD13</generatorID>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<referredTableLongName>TARJETA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9DA83BE8-6E45-533A-6E4B-B812101797C4</referredTableID>
+<keyObject>F60B84B4-F854-48AB-0B56-E33646D2915A</keyObject>
+<referredKeyID>F60B84B4-F854-48AB-0B56-E33646D2915A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TELEFONO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D3A0EB10-41E0-F5ED-DF34-D66159D393F6" name="CLIENTE">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:24:20 UTC</createdTime>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<importedID>3F0DE45C-24FC-2AE2-D679-BDA0659E66D5</importedID>
+<engineerTo>
+<item key="A1587360-F95D-AF8D-A3A2-D0CB0B83D00E" value="true"/>
+<item key="3D8B3B47-7A76-C51A-DABE-935033474A41" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>CLIENT</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TELEFONO" id="78371D42-1617-039F-05C9-2D856D359A95">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:24:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Telefono del cliente, es el identificador del cliente en el sistema]]></commentInRDBMS>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<importedID>8D11FABE-BEDF-EA33-FB2F-C613C0E9FA83</importedID>
+<engineerTo>
+<item key="A1587360-F95D-AF8D-A3A2-D0CB0B83D00E" value="true"/>
+<item key="3D8B3B47-7A76-C51A-DABE-935033474A41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIRECCION" id="A2711F1B-1DD2-1740-DACB-49C122F0657E">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:24:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Dirección del cliente]]></commentInRDBMS>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<importedID>CA99B852-F034-78A9-294F-834E1854FE11</importedID>
+<engineerTo>
+<item key="A1587360-F95D-AF8D-A3A2-D0CB0B83D00E" value="true"/>
+<item key="3D8B3B47-7A76-C51A-DABE-935033474A41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F8BE7A30-E145-22B3-0AB3-A7B832B4F542" name="CLIENTE PK">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:24:20 UTC</createdTime>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>A2C5E4C5-B0AB-22C4-925A-EA515B20A9AF</importedID>
+<engineerTo>
+<item key="A1587360-F95D-AF8D-A3A2-D0CB0B83D00E" value="false"/>
+<item key="3D8B3B47-7A76-C51A-DABE-935033474A41" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>78371D42-1617-039F-05C9-2D856D359A95</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

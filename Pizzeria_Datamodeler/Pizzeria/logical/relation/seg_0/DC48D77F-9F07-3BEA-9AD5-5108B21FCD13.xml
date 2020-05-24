@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TARJETA_SOBRINO" directorySegmentName="seg_0" id="DC48D77F-9F07-3BEA-9AD5-5108B21FCD13">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 02:28:17 UTC</createdTime>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<engineerTo>
+<item key="A1587360-F95D-AF8D-A3A2-D0CB0B83D00E" value="true"/>
+<item key="3D8B3B47-7A76-C51A-DABE-935033474A41" value="true"/>
+</engineerTo>
+<sourcePk>5FD5148D-CFD6-071E-B8C9-11969FBAF269</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7C9F4D17-C4F0-D0B2-92A0-8544547D6FEF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>989AC1BB-D78A-FBAE-D5CC-2D1A343A3C7B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
