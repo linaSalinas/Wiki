@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="ROL" id="39F4DD00-1B3C-B6D1-0A8D-81D200F8897F">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 22:00:55 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>15</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<listOfValues>
+<valueDef value="Compañero" description=""/>
+<valueDef value="Jefe" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="SERVICIO" id="BD8AC51F-2469-BB4C-06D9-5B2642F62BFB">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-24 22:01:44 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>15</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<listOfValues>
+<valueDef value="Domicilio" description="cuando el pedido es un domicilio"/>
+<valueDef value="Llevar" description="cuando el pedido es para llevar"/>
+<valueDef value="Restaurante" description="cuando el pedido es para consumir en el restaurante"/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-04-15 02:00:42 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>
