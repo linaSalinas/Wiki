@@ -64,18 +64,32 @@
 <ownDataTypeParameters>,6,3</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="REGISTRA_REGISTRA_ID" id="C5A7C2C4-9E17-8FAD-6B96-7652D7EDEB84">
+<Column name="REGISTRA_EMPLEADO_ID_EMPLEADO" id="AD4462E9-3E75-0CE4-8A72-DE0E8B8548F5">
 <createdBy>Natalia Gonzalez</createdBy>
-<createdTime>2020-05-24 22:20:29 UTC</createdTime>
+<createdTime>2020-05-25 02:29:02 UTC</createdTime>
 <ownerDesignName>Pizzeria</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="F50B53A8-A2C9-2F15-7246-161F853E0512" referredColumn="B90A0C51-21C1-554C-D1D5-3132453CB5D7"/>
+<colAssociation fkAssociation="F50B53A8-A2C9-2F15-7246-161F853E0512" referredColumn="77B20351-5B1E-ED6B-7372-AF9DC220B5D2"/>
+</associations>
+</Column>
+<Column name="REGISTRA_CLIENTE_TELEFONO" id="B0B7EE29-1A93-275F-2B53-0A4C9D591DE3">
+<createdBy>Natalia Gonzalez</createdBy>
+<createdTime>2020-05-25 02:29:02 UTC</createdTime>
+<ownerDesignName>Pizzeria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F50B53A8-A2C9-2F15-7246-161F853E0512" referredColumn="CF8FC0E3-D6A0-2EC9-DA79-C8F206B3FCCE"/>
 </associations>
 </Column>
 </columns>
@@ -93,17 +107,6 @@
 <colUsage columnID="3951BA83-EE99-3964-254F-D6FAD1D3DC22"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A46FB7E8-3121-B8D4-82D7-EB20FAC5A46C" name="PEDIDO__IDX">
-<createdBy>Natalia Gonzalez</createdBy>
-<createdTime>2020-05-24 22:20:29 UTC</createdTime>
-<ownerDesignName>Pizzeria</ownerDesignName>
-<indexState>Unique Plain Index</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<relationGeneratorID>7EED9AFB-9B5B-03F3-62BB-9101A007715B</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="C5A7C2C4-9E17-8FAD-6B96-7652D7EDEB84"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="C3EA790D-832C-2A0C-161D-F70B135F605F" name="PEDIDO_REGISTRA_FK">
 <createdBy>Natalia Gonzalez</createdBy>
 <createdTime>2020-05-24 22:20:29 UTC</createdTime>
@@ -112,7 +115,8 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C5A7C2C4-9E17-8FAD-6B96-7652D7EDEB84"/>
+<colUsage columnID="AD4462E9-3E75-0CE4-8A72-DE0E8B8548F5"/>
+<colUsage columnID="B0B7EE29-1A93-275F-2B53-0A4C9D591DE3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

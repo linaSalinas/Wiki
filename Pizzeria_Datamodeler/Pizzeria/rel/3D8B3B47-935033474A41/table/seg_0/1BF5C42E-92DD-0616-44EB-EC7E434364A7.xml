@@ -8,19 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="REGISTRA_ID" id="B90A0C51-21C1-554C-D1D5-3132453CB5D7">
-<createdBy>Natalia Gonzalez</createdBy>
-<createdTime>2020-05-24 22:20:29 UTC</createdTime>
-<ownerDesignName>Pizzeria</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementColumn>true</autoIncrementColumn>
-<identityColumn>true</identityColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<isSurrogateColumn>true</isSurrogateColumn>
-</Column>
 <Column name="HORA" id="BAF7F904-7DB6-6A8E-D7AA-FF19CF0A014E">
 <createdBy>Natalia Gonzalez</createdBy>
 <createdTime>2020-05-24 22:12:21 UTC</createdTime>
@@ -72,7 +59,8 @@
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <indexColumnUsage>
-<colUsage columnID="B90A0C51-21C1-554C-D1D5-3132453CB5D7"/>
+<colUsage columnID="77B20351-5B1E-ED6B-7372-AF9DC220B5D2"/>
+<colUsage columnID="CF8FC0E3-D6A0-2EC9-DA79-C8F206B3FCCE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="C04E2AB1-45BB-EA4A-6BED-53CA01DB7082" name="REGISTRA_CLIENTE_FK">

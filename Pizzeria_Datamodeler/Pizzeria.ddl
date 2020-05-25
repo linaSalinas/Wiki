@@ -1,5 +1,5 @@
 -- Generado por Oracle SQL Developer Data Modeler 19.4.0.350.1424
---   en:        2020-05-24 17:42:09 COT
+--   en:        2020-05-24 21:31:46 COT
 --   sitio:      Oracle Database 11g
 --   tipo:      Oracle Database 11g
 
@@ -76,11 +76,12 @@ COMMENT ON COLUMN jugo.id_jugo IS
 ALTER TABLE jugo ADD CONSTRAINT jugo_pk PRIMARY KEY ( id_jugo );
 
 CREATE TABLE pedido (
-    fecha                 DATE NOT NULL,
-    id_pedido             INTEGER NOT NULL,
-    tipo_servicio         VARCHAR2(15) NOT NULL,
-    precio                NUMBER(6, 3) NOT NULL,
-    registra_registra_id  NUMBER NOT NULL
+    fecha                          DATE NOT NULL,
+    id_pedido                      INTEGER NOT NULL,
+    tipo_servicio                  VARCHAR2(15) NOT NULL,
+    precio                         NUMBER(6, 3) NOT NULL,
+    registra_empleado_id_empleado  INTEGER NOT NULL,
+    registra_cliente_telefono      INTEGER NOT NULL
 );
 
 COMMENT ON COLUMN pedido.fecha IS
@@ -91,11 +92,6 @@ COMMENT ON COLUMN pedido.id_pedido IS
 
 COMMENT ON COLUMN pedido.tipo_servicio IS
     'Tipo del servicio que se brinda al cliente';
-
-CREATE UNIQUE INDEX pedido__idx ON
-    pedido (
-        registra_registra_id
-    ASC );
 
 ALTER TABLE pedido ADD CONSTRAINT pedido_pk PRIMARY KEY ( id_pedido );
 
@@ -141,7 +137,6 @@ COMMENT ON COLUMN pizza.id_pizza IS
 ALTER TABLE pizza ADD CONSTRAINT pizza_pk PRIMARY KEY ( id_pizza );
 
 CREATE TABLE registra (
-    registra_id           NUMBER NOT NULL,
     hora                  DATE NOT NULL,
     empleado_id_empleado  INTEGER NOT NULL,
     cliente_telefono      INTEGER NOT NULL
@@ -150,7 +145,8 @@ CREATE TABLE registra (
 COMMENT ON COLUMN registra.hora IS
     'Representa la hora en la que se toma el pedido';
 
-ALTER TABLE registra ADD CONSTRAINT registra_pk PRIMARY KEY ( registra_id );
+ALTER TABLE registra ADD CONSTRAINT registra_pk PRIMARY KEY ( empleado_id_empleado,
+                                                              cliente_telefono );
 
 CREATE TABLE sobrino (
     cumpleaños        DATE NOT NULL,
@@ -202,8 +198,10 @@ ALTER TABLE pedido_pizza
         REFERENCES pizza ( id_pizza );
 
 ALTER TABLE pedido
-    ADD CONSTRAINT pedido_registra_fk FOREIGN KEY ( registra_registra_id )
-        REFERENCES registra ( registra_id );
+    ADD CONSTRAINT pedido_registra_fk FOREIGN KEY ( registra_empleado_id_empleado,
+                                                    registra_cliente_telefono )
+        REFERENCES registra ( empleado_id_empleado,
+                              cliente_telefono );
 
 ALTER TABLE pedido_tarjeta
     ADD CONSTRAINT pedido_tarjeta_pedido_fk FOREIGN KEY ( pedido_id_pedido )
@@ -225,23 +223,12 @@ ALTER TABLE sobrino
     ADD CONSTRAINT sobrino_tarjeta_fk FOREIGN KEY ( tarjeta_telefono )
         REFERENCES tarjeta ( telefono );
 
-CREATE SEQUENCE registra_registra_id_seq START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER registra_registra_id_trg BEFORE
-    INSERT ON registra
-    FOR EACH ROW
-    WHEN ( new.registra_id IS NULL )
-BEGIN
-    :new.registra_id := registra_registra_id_seq.nextval;
-END;
-/
-
 
 
 -- Informe de Resumen de Oracle SQL Developer Data Modeler: 
 -- 
 -- CREATE TABLE                            11
--- CREATE INDEX                             1
+-- CREATE INDEX                             0
 -- ALTER TABLE                             22
 -- CREATE VIEW                              0
 -- ALTER VIEW                               0
@@ -249,7 +236,7 @@ END;
 -- CREATE PACKAGE BODY                      0
 -- CREATE PROCEDURE                         0
 -- CREATE FUNCTION                          0
--- CREATE TRIGGER                           1
+-- CREATE TRIGGER                           0
 -- ALTER TRIGGER                            0
 -- CREATE COLLECTION TYPE                   0
 -- CREATE STRUCTURED TYPE                   0
@@ -262,7 +249,7 @@ END;
 -- CREATE DISK GROUP                        0
 -- CREATE ROLE                              0
 -- CREATE ROLLBACK SEGMENT                  0
--- CREATE SEQUENCE                          1
+-- CREATE SEQUENCE                          0
 -- CREATE MATERIALIZED VIEW                 0
 -- CREATE MATERIALIZED VIEW LOG             0
 -- CREATE SYNONYM                           0
